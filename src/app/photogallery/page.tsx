@@ -9,7 +9,6 @@ import moments from './assets/img/view-moments.jpg'
 // import Lightbox from "yet-another-react-lightbox";
 // import "yet-another-react-lightbox/styles.css";
 import { Gallery } from "react-grid-gallery";
-import { CldImage } from 'next-cloudinary';
 import  laJolla  from '../assets/img/prints/la-jolla-sunset-1.jpg';
 import solana from '../assets/img/prints/surf-solana-beach.jpg'
 import bostonMarina from '../assets/img/prints/boston-marina-exposure-1.jpg';
