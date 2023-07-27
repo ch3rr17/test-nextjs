@@ -268,7 +268,7 @@
   .intro-title {
     font-size: 1rem;
   }
-  
+
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
@@ -352,9 +352,9 @@
     filter: invert(1);
   }
 
-  .logo {
+  /* .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
+  } */
 }
 
 @keyframes rotate {
