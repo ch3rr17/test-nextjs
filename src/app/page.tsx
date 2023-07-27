@@ -12,6 +12,7 @@ import type { Route } from 'next';
 export default function Home() {
 
     // const router = useRouter()
+    const video_id = '-nk_K4rNF5g'
     
   return (
     <main>
@@ -43,7 +44,13 @@ export default function Home() {
             
         </div>
         <div className={styles.yt}>
-          <iframe src="https://www.youtube.com/embed/-nk_K4rNF5g" title="Story"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+  src={"https://www.youtube.com/embed/" + video_id}
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen
+></iframe>
+          {/* <iframe src="https://www.youtube.com/embed/-nk_K4rNF5g" title="Story"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
         </div>
     </main>
 
