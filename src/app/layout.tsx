@@ -29,12 +29,14 @@ export default function RootLayout({
             <div className={styles.container}>
                 <div className={styles["logo-container"]}>
                     <Link href="/">
-                    <Image
-                        src={logo}
-                        alt="logo"
-                        height={145}
-                        sizes="(max-width: 100%)"
-                    />
+                    <div className={styles.logo}>
+                      <Image
+                          src={logo}
+                          alt="logo"
+                          height={145}
+                          sizes="(max-width: 100%)"
+                      />
+                    </div>
                     </Link>
                     <Link href="/photogallery">Sample Work</Link>
                     <a href="https://www.swichepix.com/" target={'_blank'}>Print Gallery</a>

@@ -256,6 +256,19 @@
     padding: 4rem;
   }
 
+  .logo > img {
+    width: 50vw;
+    height: 10vh;
+  }
+  .pic-col > img {
+    margin: 0 auto;
+    width: 50vw;
+    height: auto;
+  }
+  .intro-title {
+    font-size: 1rem;
+  }
+  
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
