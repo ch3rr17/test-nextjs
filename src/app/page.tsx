@@ -15,6 +15,7 @@ export default function Home() {
     
   return (
     <main>
+       
         <div className={styles["banner-container"]}>
             <div className={styles["film-banner-container"]}>
                 <div className={styles.pic}>
@@ -40,6 +41,9 @@ export default function Home() {
                 </div>
             </div>
             
+        </div>
+        <div className={styles.yt}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/-nk_K4rNF5g" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </main>
 

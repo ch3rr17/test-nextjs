@@ -38,8 +38,10 @@ export default function RootLayout({
                       />
                     </div>
                     </Link>
-                    <Link href="/photogallery">Sample Work</Link>
-                    <a href="https://www.swichepix.com/" target={'_blank'}>Print Gallery</a>
+                    <div>
+						<Link href="/photogallery" className={styles.navLinks}>Sample Work</Link>
+						<a href="https://www.swichepix.com/" target={'_blank'} className={styles.navLinks}>Print Gallery</a>
+					</div>
                 </div>
             </div>
         </div>
