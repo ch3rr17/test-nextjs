@@ -107,7 +107,7 @@ export default function GalleryPage() {
             <h2>Landscape</h2>
             <Gallery images={images} />
          </section>
-         <CldImage className={styles["portrait-img"]}
+         <CldImage
                width="250"
                height="350"
                alt='camel'
