@@ -142,11 +142,6 @@ export default function GalleryPage() {
                height="350"
                alt='baby'
                src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690485946/portraits/i-3PTvFCP-L_ew6xso.jpg" />
-            {/* <CldImage
-               width="250"
-               height="350"
-               alt='camel'
-               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585048/portraits/jess-olivia-portfolio_rkmb8t.jpg" /> */}
             </div>
             
          </section>
