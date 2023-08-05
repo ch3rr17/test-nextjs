@@ -110,8 +110,8 @@ export default function GalleryPage() {
          <CldImage className={styles["portrait-img"]}
                width="250"
                height="350"
-               alt='ellie'
-               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585049/portraits/ellie-portfolio_rddpdm.jpg" />
+               alt='camel'
+               src="camel-cabo" />
       </div>
    </main>
         
