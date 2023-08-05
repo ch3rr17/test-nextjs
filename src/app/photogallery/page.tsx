@@ -102,7 +102,7 @@ export default function GalleryPage() {
   return (
    <main className={styles["gallery-container"]}>
       <div className={styles.gallery}>
-         <h1>Gallery</h1>
+         <h1>Galleryd</h1>
          <section>
             <h2>Landscape</h2>
             <Gallery images={images} />
