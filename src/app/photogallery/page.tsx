@@ -19,7 +19,7 @@ import caboPier from '../assets/img/prints/cabo-pier-bird-stretch.jpg';
 import jt from '../assets/img/prints/joshua-tree-sunrise.jpg';
 import lj2 from '../assets/img/prints/la-jolla-sunset-2.jpg';
 import falls from '../assets/img/prints/multnomah.jpg';
-// import { CldImage } from 'next-cloudinary';
+import { CldImage } from 'next-cloudinary';
 
 
 
@@ -107,7 +107,11 @@ export default function GalleryPage() {
             <h2>Landscape</h2>
             <Gallery images={images} />
          </section>
-         
+         <CldImage className={styles["portrait-img"]}
+               width="250"
+               height="350"
+               alt='ellie'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585049/portraits/ellie-portfolio_rddpdm.jpg" />
       </div>
    </main>
         
