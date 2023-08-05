@@ -25,6 +25,22 @@ import k1 from '../assets/img/prints/portraits/knueven1.jpeg';
 import k2 from '../assets/img/prints/portraits/knueven2.jpeg';
 import k3 from '../assets/img/prints/portraits/knueven3.jpeg';
 // import { CldImage } from 'next-cloudinary';
+// import "@fortawesome/fontawesome-svg-core/styles.css"; 
+
+// import { config } from "@fortawesome/fontawesome-svg-core";
+// // Tell Font Awesome to skip adding the CSS automatically 
+// // since it's already imported above
+// config.autoAddCss = false; 
+
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// // import the icons you need
+// import {
+//   faSearch,
+//   faAmbulance,
+//   faAnchor,
+//   faInstagram
+// } from "@fortawesome/free-solid-svg-icons";
 
 console.log(ellie);
 console.log(jo);
