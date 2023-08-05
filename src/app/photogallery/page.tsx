@@ -19,10 +19,18 @@ import caboPier from '../assets/img/prints/cabo-pier-bird-stretch.jpg';
 import jt from '../assets/img/prints/joshua-tree-sunrise.jpg';
 import lj2 from '../assets/img/prints/la-jolla-sunset-2.jpg';
 import falls from '../assets/img/prints/multnomah.jpg';
-import { CldImage } from 'next-cloudinary';
+import ellie from '../assets/img/prints/portraits/ellie-portfolio.jpg';
+import jo from '../assets/img/prints/portraits/jess-olivia-portfolio.jpg';
+import k1 from '../assets/img/prints/portraits/knueven1.jpeg';
+import k2 from '../assets/img/prints/portraits/knueven2.jpeg';
+import k3 from '../assets/img/prints/portraits/knueven3.jpeg';
+// import { CldImage } from 'next-cloudinary';
 
-
-
+console.log(ellie);
+console.log(jo);
+console.log(k1);
+console.log(k2);
+console.log(k3);
 console.log(laJolla)
 console.log(solana);
 console.log(lj2);
@@ -94,24 +102,51 @@ const images = [
       src: "/_next/static/media/multnomah.bb3d1e80.jpg",
       width: 500,
       height: 700,
-   },
+   }
  ];
+
+ const portraits = [
+  {
+     src: "/_next/static/media/ellie-portfolio.817d6031.jpg",
+     width: 500,
+     height: 700,
+  },
+  {
+     src: "/_next/static/media/jess-olivia-portfolio.cad0c308.jpg",
+     width: 500,
+     height: 700,
+  },
+  {
+     src: "/_next/static/media/knueven1.3ee17458.jpeg",
+     width: 700,
+     height: 500,
+  },
+  {
+     src: "/_next/static/media/knueven2.d7ffc42f.jpeg",
+     width: 500,
+     height: 500,
+  },
+  {
+     src: "/_next/static/media/knueven3.e1db7aa1.jpeg",
+     width: 500,
+     height: 700,
+  }
+];
 
 export default function GalleryPage() {
     
   return (
    <main className={styles["gallery-container"]}>
       <div className={styles.gallery}>
-         <h1>Galleryd</h1>
+         <h1>Gallery</h1>
          <section>
             <h2>Landscape</h2>
             <Gallery images={images} />
          </section>
-         <CldImage
-               width="250"
-               height="350"
-               alt='camel'
-               src="camel-cabo" />
+         <section>
+            <h2>Portraits</h2>
+            <Gallery images={portraits} />
+         </section>
       </div>
    </main>
         
