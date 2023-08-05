@@ -19,6 +19,7 @@ import caboPier from '../assets/img/prints/cabo-pier-bird-stretch.jpg';
 import jt from '../assets/img/prints/joshua-tree-sunrise.jpg';
 import lj2 from '../assets/img/prints/la-jolla-sunset-2.jpg';
 import falls from '../assets/img/prints/multnomah.jpg';
+import { CldImage } from 'next-cloudinary';
 
 
 
@@ -106,11 +107,49 @@ export default function GalleryPage() {
             <h2>Landscape</h2>
             <Gallery images={images} />
          </section>
-         {/* <CldImage
-  width="600"
-  height="600"
-  alt='camel'
-  src="camel-cabo" /> */}
+         <br />
+         <h2>Portraits</h2>
+         <br />
+         <section>
+            <div>
+            <CldImage className={styles["portrait-img"]}
+               width="250"
+               height="350"
+               alt='ellie'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585049/portraits/ellie-portfolio_rddpdm.jpg" />
+            <CldImage className={styles["portrait-img"]}
+               width="250"
+               height="350"
+               alt='jessandolivia'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585048/portraits/jess-olivia-portfolio_rkmb8t.jpg" />
+             <CldImage className={styles["portrait-img"]}
+               width="250"
+               height="350"
+               alt='day'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690485946/portraits/DSC07816_bstq0q.jpg" />
+             <CldImage
+               width="250"
+               height="350"
+               alt='mamaandbaby'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690485946/portraits/i-wpFFxPF-X3_kd1hyi.jpg" />
+            <CldImage className={styles["portrait-img"]}
+               width="350"
+               height="350"
+               alt='dadaandbaby'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690485946/portraits/i-QzMBWng-X2_frecnx.jpg" />
+            <CldImage className={styles["portrait-img"]}
+               width="500"
+               height="350"
+               alt='baby'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690485946/portraits/i-3PTvFCP-L_ew6xso.jpg" />
+            {/* <CldImage
+               width="250"
+               height="350"
+               alt='camel'
+               src="https://res.cloudinary.com/drm1stgyj/image/upload/v1690585048/portraits/jess-olivia-portfolio_rkmb8t.jpg" /> */}
+            </div>
+            
+         </section>
       </div>
    </main>
         
