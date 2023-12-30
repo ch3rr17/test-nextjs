@@ -43,15 +43,7 @@ export default function Home() {
             </div>
             
         </div>
-        <div className={styles.yt}>
-        <iframe
-  src={"https://www.youtube.com/embed/" + video_id}
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
-          {/* <iframe src="https://www.youtube.com/embed/-nk_K4rNF5g" title="Story"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
-        </div>
+
     </main>
 
   )
