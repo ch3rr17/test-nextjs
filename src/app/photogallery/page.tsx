@@ -24,7 +24,7 @@ import jo from '../assets/img/prints/portraits/jess-olivia-portfolio.jpg';
 import k1 from '../assets/img/prints/portraits/knueven1.jpeg';
 import k2 from '../assets/img/prints/portraits/knueven2.jpeg';
 import k3 from '../assets/img/prints/portraits/knueven3.jpeg';
-import vid from '../assets/img/prints/wa-sample2.mp4';
+
 
 // import { CldImage } from 'next-cloudinary';
 // import "@fortawesome/fontawesome-svg-core/styles.css"; 
@@ -156,9 +156,7 @@ export default function GalleryPage() {
     
   return (
    <main className={styles["gallery-container"]}>
-      <video autoPlay loop style={{ width: '500px', height: '500px' }}>
-        <source src="../assets/img/prints/wa-sample2.mp4" />
-      </video>
+     
       <div className={styles.gallery}>
          <h1>Gallery</h1>
          <section>
