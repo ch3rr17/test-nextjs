@@ -24,6 +24,8 @@ import jo from '../assets/img/prints/portraits/jess-olivia-portfolio.jpg';
 import k1 from '../assets/img/prints/portraits/knueven1.jpeg';
 import k2 from '../assets/img/prints/portraits/knueven2.jpeg';
 import k3 from '../assets/img/prints/portraits/knueven3.jpeg';
+import vid from '../assets/img/prints/wa-sample2.mp4';
+
 // import { CldImage } from 'next-cloudinary';
 // import "@fortawesome/fontawesome-svg-core/styles.css"; 
 
@@ -57,6 +59,7 @@ console.log(bostonStreet);
 console.log(bostonLibrary);
 console.log(caboPier);
 console.log(falls);
+console.log(vid);
 const images = [
     {
        src: '/_next/static/media/la-jolla-sunset-1.c8c3da24.jpg',
@@ -153,6 +156,9 @@ export default function GalleryPage() {
     
   return (
    <main className={styles["gallery-container"]}>
+      <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+        <source src="../assets/img/prints/wa-sample2.mp4" />
+      </video>
       <div className={styles.gallery}>
          <h1>Gallery</h1>
          <section>
@@ -160,7 +166,7 @@ export default function GalleryPage() {
             <Gallery images={images} />
          </section>
          <section>
-            <h2>Portraits</h2>
+            <h2>Portrait</h2>
             <Gallery images={portraits} />
          </section>
       </div>
