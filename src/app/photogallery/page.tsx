@@ -59,7 +59,7 @@ console.log(bostonStreet);
 console.log(bostonLibrary);
 console.log(caboPier);
 console.log(falls);
-console.log(vid);
+
 const images = [
     {
        src: '/_next/static/media/la-jolla-sunset-1.c8c3da24.jpg',
