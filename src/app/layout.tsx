@@ -40,7 +40,7 @@ export default function RootLayout({
                     </Link>
                     <div>
 						<Link href="/photogallery" className={styles.navLinks}>Sample Work</Link>
-						<a href="https://www.swichepix.com/" target={'_blank'} className={styles.navLinks}>Print Gallery</a>
+						
 						<a href="https://www.instagram.com/swiche.captures/" target={'_blank'} className={styles.navLinks}>Instagram</a>
 					</div>
                 </div>
