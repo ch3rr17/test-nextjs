@@ -156,7 +156,7 @@ export default function GalleryPage() {
     
   return (
    <main className={styles["gallery-container"]}>
-     
+      <p>Maintenance mode be back soon</p>
       <div className={styles.gallery}>
          <h1>Gallery</h1>
          <section>
